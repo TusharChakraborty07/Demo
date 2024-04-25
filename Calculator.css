@@ -1,0 +1,52 @@
+.number{
+    size: 30px;
+    font-size: 25px;
+    background-color: bisque;
+
+    padding: 2%;
+    margin: 1%;
+    border: 10px rgb(196, 25, 25);
+    text-align: center;
+    border-radius: 20%;
+    box-shadow: 10px 10px 10px black;
+
+}
+
+
+.number:hover{
+    background-color: black;
+    color: yellow;
+    box-shadow: 10px 10px 10px blue;
+    font-size: 25px;
+    border-radius: 20%;
+    transition: 0.5ms
+}
+
+#body{   
+    text-align: center;
+    background-color: black;
+    color: yellow;
+}
+
+#outer{
+    border: 1px solid black;
+    border-radius: 10%;
+
+    background-color: rgb(97, 92, 86);
+    color: rgb(0, 0, 0);
+    font-family: Algerian;
+
+    box-shadow: 8px 8px 20px rgb(243, 215, 2);
+
+    width: 35%;
+    height: 600px;
+
+    margin-left: 30%;
+    margin-top: 10%;
+}
+
+#display{
+     height: 50px;
+     width: 300px;
+     font-size: 18px;
+}
